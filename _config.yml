@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://lebanesedevelopers.github.io"
+url: "http://lebanesedevelopers.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
