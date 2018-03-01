@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
+baseurl: ""
 url: "https://lebanesedevelopers.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: Lebanese Developers
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
