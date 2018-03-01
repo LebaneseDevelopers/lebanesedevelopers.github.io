@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Our goals has always been to create a communication network among Lebanese developers and to share technical knowledge and experience for a better professional life.</p>
+     <p>Our goals have always been to create a communication network among Lebanese developers and to share technical knowledge and experience for a better professional life.</p>
 
      <p>We believe in our community and in the person of everyone of you that through technology we can do our best for our small country Lebanon.</p>
   header_text_feature_image:
