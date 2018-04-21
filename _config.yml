@@ -80,5 +80,6 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Setup.md
 projects:
   - { "name": "Lebanese-Bus-Routes", "url": "https://lebanesedevelopers.github.io/Lebanese-Bus-Routes/"}
