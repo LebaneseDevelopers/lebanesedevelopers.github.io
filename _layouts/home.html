@@ -3,13 +3,31 @@ layout: default
 ---
 
 <div class="home">
-  {% if site.theme_settings.header_text %}
+  {% if site.theme_settings.slack_invite %}
   <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-    {{ site.theme_settings.header_text }}
+  A community and a <a href="{{site.theme_settings.slack_invite}}">Slack workspace</a> for Lebanese Developers to discuss and share experience and projects.
+  <a href="{{site.theme_settings.slack_invite}}" class="slack-invite">
+    <img src="./assets/img/slack.png" width="50" height="50">Join Us On Slack
+  </a>
   </div>
   {% endif %}
-
+  <div class="posts">
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link">
+            Projects
+          </a>
+        </h1>
+      </header>
+      <ul>
+        {% for project in site.projects %}
+        <li><a href="{{project['url']}}">{{project["name"]}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">

@@ -12,13 +12,9 @@ theme_settings:
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Our goals have always been to create a communication network among Lebanese developers and to share technical knowledge and experience for a better professional life.</p>
-
-     <p>We believe in our community and in the person of everyone of you that through technology we can do our best for our small country Lebanon.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://lnkd.in/d2je4xY" target="_blank">Lebanese Developers</a> with <a href="https://github.com/LebaneseDevelopers">GitHub Team</a>
+   Powered by <a href="https://lebanesedevelopers.slack.com" target="_blank">Lebanese Developers</a> with <a href="https://github.com/LebaneseDevelopers">GitHub Team</a>
 
   # Icons
   rss: false
@@ -42,7 +38,8 @@ theme_settings:
   twitter: "twitter"
   wordpress:
   youtube:
-
+  slack_invite: https://join.slack.com/t/lebanesedevelopers/shared_invite/enQtMzA0NjMyMDQxMzgyLWUwNTVlNjM2MDUxMjk0MzI5ZGE1OGRkZWQzYzgyYjA1ZWJlZjI4MjhhODY5Mjg2MjQ1MTNjYzk2MmY5ZTA2ZWI
+  slack: https://lebanesedevelopers.slack.com
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
@@ -83,3 +80,5 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+projects:
+  - { "name": "Lebanese-Bus-Routes", "url": "https://lebanesedevelopers.github.io/Lebanese-Bus-Routes/"}
